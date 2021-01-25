@@ -11,9 +11,9 @@ namespace OOP3
             Console.WriteLine("Esnaf Kredisi Hesaplaması Yapıldı");
         }
 
-        public void DoIt()
+        public void Name()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Esnaf Kredisi");
         }
     }
 }

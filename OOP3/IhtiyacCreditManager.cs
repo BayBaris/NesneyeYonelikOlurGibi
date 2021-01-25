@@ -12,9 +12,9 @@ namespace OOP3
             Console.WriteLine("Ihtiyac Kredisi Hesaplaması Yapıldı.");
         }
 
-        public void DoIt()
+        public void Name()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("İhtiyac Kredisi");
         }
     }
 }

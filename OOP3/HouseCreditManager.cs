@@ -11,9 +11,9 @@ namespace OOP3
             Console.WriteLine("Konut Kredisi Hesaplaması Yapıldı.");
         }
 
-        public void DoIt()
+        public void Name()
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Ev Kredisi");
         }
     }
 }

@@ -15,9 +15,10 @@ namespace OOP3
         }
         public void DoCreditPreview(List<ICreditManager> credits)
         {
+            Console.WriteLine("Alınabilir Krediler:");
             foreach (var credit in credits)
             {
-                credit.Calculate();
+                credit.Name();
             }
         }
     }
